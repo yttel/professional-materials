@@ -7,16 +7,16 @@
   <head>
 
     <meta charset="UTF-8">
-    <meta name="description" content="Weather Dashboard by Letty Bedard">
+    <meta name="description" content="Professional Portfolio by Letty Bedard">
     <meta name="author" content="Letty Bedard">
-    <meta name="keywords" content="weather dashboard">
+    <meta name="keywords" content="portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./Assets/style.css">
     
-    <title>Weather Dashboard</title>
+    <title>Portfolio</title>
     
   </head>
   
@@ -25,19 +25,44 @@
     <div class="container whiteBack"> <!--main content panel-->
       <div class="row titlePanel"> <!--title row-->
         <div class="col-lg-12">
-          <h3 class="float-left btn littleBox" id="aboutMe">
-            About
-          </h3>
+          <h3 class="float-left mt-4 m-2" id="aboutMe">About</h3>
           
-          <h3 class="float-right btn littleBox" id="portfolio">
-            portfolio
-          </h3>
+          <h3 class="float-right mt-4  m-2" id="portfolio">Portfolio</h3>
 
           <h1 class="text-center m-4">Letty Bedard</h1>
+
         </div>
       </div> <!--title row-->
-      <div class="row"> <!--row 2-->
-        stuff and things go here, hidden or not depending on menu selection
+      <div id="mainAttraction" class="row"> <!--row 2-->
+        <div id="aboutMePane" class="col-lg-12 m-2 text-center"> <!--links and contact info-->
+          <a href="www.linkedin.com/in/lettybedard" target="_blank" class="contact">LinkedIn</a><br>
+          <a href="https://github.com/yttel" target="_blank" class="contact">github</a><br>
+          <a href="" class="contact">email</a><br>
+          <a href="" class="contact">phone</a><br>
+          <a href="" class="contact">resume</a>
+        </div>
+        
+        <div id="portfolioPane" class="isHidden col-lg-12 m-2"> <!--portfolio tiles-->
+          <div class="row m-1 mb-4">
+            <div data-index="0" class="card p-1 mr-2">
+              Project 1
+            </div>
+            <div data-index="1" class="card p-1 mr-2">
+              JavaScript Quiz
+            </div>
+            <div data-index="2" class="card p-1 mr-2">
+              Workday Scheduler
+            </div>
+            <div data-index="3" class="card p-1 mr-2">
+              Weather Dashboard
+            </div>
+          </div>
+          <div id="cardDetail" class="col-lg-12 m-2">
+            <!-- details get dumped here -->
+          </div>
+        </div>
+
+
       </div>
     </div> <!--main panel-->
     
