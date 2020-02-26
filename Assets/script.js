@@ -42,14 +42,14 @@ $(function(){
     $cardDetail.empty();
     $cardDetail.html(`
     <div class="row">
-      <div class="col-md-6">
-        <img class="w-100" src="./Assets/Images/${image}">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <img class="img-fluid img-thumbnail" src="./Assets/Images/${image}">
       </div>
 
-      <div class="col-md-6">
-        <h3 class="px-1">${title}</h3>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <h2 class="px-1">${title}</h2>
         <a class="px-1" href="${siteLink}" target="_blank">Link to Live site</a><br>
-        <a class="px-1 "href="${gitLink}" target="_blank">Link to GitHub</a>
+        <a class="px-1" href="${gitLink}" target="_blank">Link to GitHub</a>
         <p class="px-1">${description}</p>
       </div>
     </div>`);

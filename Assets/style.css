@@ -27,6 +27,10 @@ h3, h4, h5 {
   font-family:'Georgia', 'Times New Roman', Times, serif;
 }
 
+h3 {
+  color: #4aaaa5;
+}
+
 .isHidden{
   display: none;
 }
@@ -41,6 +45,10 @@ a.contact:visited,a.contact:hover, a.contact:any-link{
   color: #777777;
 }
 
+/* #instructions{
+  color: #4aaaa5;
+  text-align: center;
+} */
 
 footer.footerStyle{
   background-color: #666666;
